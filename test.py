@@ -27,6 +27,8 @@ if __name__ == "__main__":
     image = cv2.imread(args.image)
     mask = cv2.imread(args.mask)
 
+    import ipdb; ipdb.set_trace()
+
     assert image.shape == mask.shape
 
     h, w, _ = image.shape
